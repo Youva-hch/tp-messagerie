@@ -1,4 +1,4 @@
-import Message from '../models/chat.model.js';
+import Chat from '../models/chat.model.js';
 
 // Fonction pour configurer les WebSockets
 export const setupSocket = (io) => {
