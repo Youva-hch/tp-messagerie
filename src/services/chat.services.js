@@ -10,7 +10,7 @@ export const createMessage = async (req, res) => {
     res.status(201).json(newMessage);
   } catch (err) {
     res.status(500).json({ message: 'Erreur lors de la création du message', error: err });
-  }
+  }  
 };
 
 export const getMessage = async (req, res) => {
