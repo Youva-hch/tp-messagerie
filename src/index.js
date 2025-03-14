@@ -1,4 +1,5 @@
 import express from 'express';
+import dotenv from "dotenv";
 import http from 'http';
 import socketIo from 'socket.io';
 import mongoose from 'mongoose';
