@@ -1,0 +1,27 @@
+{
+  "name": "tp-messagerie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Youva-hch/tp-messagerie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Youva-hch/tp-messagerie/issues"
+  },
+  "homepage": "https://github.com/Youva-hch/tp-messagerie#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}
