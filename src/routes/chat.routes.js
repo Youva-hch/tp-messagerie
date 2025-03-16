@@ -1,10 +1,10 @@
 import express from 'express';
-import { getMessages, deleteMessage } from '../services/chat.services.js';
+import { getMessage, deleteMessage } from '../services/chat.services.js';
 
 const router = express.Router();
 
 // Route pour obtenir tous les messages
-router.get('/', getMessages);
+router.get('/', getMessage);
 
 // Route pour supprimer un message par ID
 router.delete('/:id', deleteMessage);
